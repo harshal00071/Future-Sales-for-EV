@@ -1,4 +1,5 @@
-# 📊 Predictive Model for Sales
+# 📊 Predictive Model for EV Vehcile SALES
+
 A complete AI-powered sales forecasting application built using **React + TypeScript**, **FastAPI**, **SQLite**, and **Recharts**.  
 This system predicts future sales, updates analytics in real-time, manages historical insights, and allows users to upload CSV/Excel data for improved forecasting.
 
@@ -7,6 +8,7 @@ This system predicts future sales, updates analytics in real-time, manages histo
 ## ⚡ Tech Stack
 
 ### **Frontend**
+
 - React + TypeScript
 - Vite
 - TailwindCSS + shadcn/ui
@@ -15,6 +17,7 @@ This system predicts future sales, updates analytics in real-time, manages histo
 - React Router
 
 ### **Backend**
+
 - FastAPI (Python)
 - SQLite (Local persistent database)
 - Uvicorn (ASGI Server)
@@ -22,6 +25,7 @@ This system predicts future sales, updates analytics in real-time, manages histo
 - CORS Middleware
 
 ### **Other Tools**
+
 - Git & GitHub
 - CSV/XLSX file handling
 - REST API architecture
@@ -31,44 +35,50 @@ This system predicts future sales, updates analytics in real-time, manages histo
 ## 🌟 Features
 
 ### 🔮 **Sales Prediction**
-- Enter product, pricing, discount, region, and season details  
-- FastAPI model generates predicted sales  
-- Confidence metrics & insights included  
-- Prediction results saved to database  
+
+- Enter product, pricing, discount, region, and season details
+- FastAPI model generates predicted sales
+- Confidence metrics & insights included
+- Prediction results saved to database
 
 ### 📈 **Real-Time Analytics**
+
 - Overview metrics update automatically:
-  - Growth Rate  
-  - Active Customers  
-  - Total Orders  
+  - Growth Rate
+  - Active Customers
+  - Total Orders
 - Charts generated using Recharts:
-  - Sales vs Forecast  
-  - Category distribution  
-  - Regional performance  
-  - Monthly trends  
+  - Sales vs Forecast
+  - Category distribution
+  - Regional performance
+  - Monthly trends
 
 ### 🕒 **Prediction History**
-- View past prediction results  
-- See accuracy, trends, and actual vs predicted numbers  
-- Automatically updates after new predictions  
+
+- View past prediction results
+- See accuracy, trends, and actual vs predicted numbers
+- Automatically updates after new predictions
 
 ### 📤 **Upload Data**
-- Upload CSV/XLSX sales data  
-- Files stored in backend `/uploads`  
-- Triggers analytics refresh  
+
+- Upload CSV/XLSX sales data
+- Files stored in backend `/uploads`
+- Triggers analytics refresh
 
 ### ⚙️ **Settings**
-- Update user profile  
-- Configure prediction model settings  
-- Notification preferences  
-- Data retention & update rules  
-- Settings saved persistently in the backend  
+
+- Update user profile
+- Configure prediction model settings
+- Notification preferences
+- Data retention & update rules
+- Settings saved persistently in the backend
 
 ---
 
 ## 🛠️ Installation & Setup
 
 ### **1. Clone the Repository**
+
 ```bash
 git clone <repo-url>
 cd data-forecaster-x-main
@@ -119,4 +129,5 @@ project/
     ├── lib/api.ts
     ├── App.tsx
     └── main.tsx
-"# project" 
+"# project"
+```
