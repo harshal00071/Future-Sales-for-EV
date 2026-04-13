@@ -1,5 +1,5 @@
 # 📊 Predictive Model for EV Vehcile SALES
-
+ 
 A complete AI-powered sales forecasting application built using **React + TypeScript**, **FastAPI**, **SQLite**, and **Recharts**.  
 This system predicts future sales, updates analytics in real-time, manages historical insights, and allows users to upload CSV/Excel data for improved forecasting.
 
