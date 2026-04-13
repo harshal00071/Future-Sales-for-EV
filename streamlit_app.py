@@ -8,7 +8,7 @@ st.set_page_config(
     initial_sidebar_state="collapsed"
 )
 
-# 2. Custom CSS (Taaki upar ka extra space hat jaye aur full screen feel aaye)
+# 2. Custom CSS (Taaki upar ka extra space hat jaye aur full screen feel aaye  then its good)
 st.markdown("""
     <style>
         /* Remove top padding and margins */

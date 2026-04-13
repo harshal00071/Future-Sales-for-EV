@@ -42,8 +42,11 @@ def train_model():
         },
         MODEL_PATH
     )
+ 
 
+ 
 def load_model():
     if not os.path.exists(MODEL_PATH):
         train_model()
     return joblib.load(MODEL_PATH)
+ 

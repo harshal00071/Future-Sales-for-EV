@@ -1,5 +1,12 @@
 import { NavLink } from "@/components/NavLink";
-import { Home, TrendingUp, BarChart3, Upload, Clock, Settings } from "lucide-react";
+import {
+  Home,
+  TrendingUp,
+  BarChart3,
+  Upload,
+  Clock,
+  Settings,
+} from "lucide-react";
 
 const Navigation = () => {
   const navItems = [
@@ -18,7 +25,7 @@ const Navigation = () => {
           <div className="text-xl font-semibold text-primary">
             Sales Forecaster
           </div>
-          
+
           <div className="flex items-center gap-1">
             {navItems.map((item) => (
               <NavLink

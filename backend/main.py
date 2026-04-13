@@ -10,7 +10,7 @@ from fastapi import FastAPI, UploadFile, File, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
-from rf_predictor import rf_sales_prediction   # ✅ Random Forest ML model
+from rf_predictor import rf_sales_prediction   # ✅ Random Forest ML model for prediction
 
 # ---------------- Paths ----------------
 BASE_DIR = os.path.dirname(__file__)
